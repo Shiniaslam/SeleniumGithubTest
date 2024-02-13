@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testcases.TC014_AmazonPomTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="proceedToBuyTest"/>
+          <include name="amazonHomePageTest"/>
+          <include name="firstResultPaageTest"/>
+          <include name="addToCartTest"/>
+        </methods>
+      </class> <!-- testcases.TC014_AmazonPomTest -->
+      <class name="testcases.TC015_AmazonPFTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="firstResultPaageTest"/>
+          <include name="amazonHomePageTest"/>
+          <include name="launchBrowser"/>
+          <include name="proceedToBuyTest"/>
+          <include name="addToCartTest"/>
+        </methods>
+      </class> <!-- testcases.TC015_AmazonPFTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
