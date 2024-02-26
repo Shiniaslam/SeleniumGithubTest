@@ -13,16 +13,6 @@
           <include name="addToCartTest"/>
         </methods>
       </class> <!-- testcases.TC014_AmazonPomTest -->
-      <class name="testcases.TC015_AmazonPFTest">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="firstResultPaageTest"/>
-          <include name="amazonHomePageTest"/>
-          <include name="launchBrowser"/>
-          <include name="proceedToBuyTest"/>
-          <include name="addToCartTest"/>
-        </methods>
-      </class> <!-- testcases.TC015_AmazonPFTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
